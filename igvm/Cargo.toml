@@ -23,7 +23,7 @@ rustdoc-args = ["--cfg", "docsrs"]
 
 [lib]
 name = "igvm"
-crate-type = ["staticlib", "rlib"]
+crate-type = ["staticlib", "cdylib", "rlib"]
 
 [dependencies]
 igvm_defs = { workspace = true, features = ["unstable"] }
